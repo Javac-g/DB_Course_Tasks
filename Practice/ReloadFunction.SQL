@@ -1,1 +1,3 @@
-CREATE 
+CREATE TABLE users(
+
+)
