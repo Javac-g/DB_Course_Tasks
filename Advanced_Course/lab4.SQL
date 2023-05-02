@@ -152,32 +152,39 @@ INSERT INTO "lab4.active_orders" ("order_id", "client_id") VALUES
 (5, 1);
  SELECT * FROM "lab4.active_orders";
  
+Request for a sample of all products from the "Smartphones" category:
 SELECT * FROM "lab4.Product_list" 
 INNER JOIN "lab4.Category" 
 ON "lab4.Product_list"."category_id" = "lab4.Category"."id" 
 WHERE "lab4.Category"."name" = 'Smartphone';
 
+Request for a sample of all orders that have the status "In processing":
 SELECT * FROM "lab4.order" 
 WHERE "lab4.order"."order_status" = 'processing';
 
+
+
+Query for a sample of all orders made by a certain customer:
 SELECT * FROM "lab4.active_orders" 
 INNER JOIN "lab4.clients" 
 ON "lab4.active_orders"."client_id" = "lab4.clients"."id" 
 WHERE "lab4.clients"."first_name" = 'Max' AND "lab4.clients"."second_name" = 'Denisov';
 
-
+Request for a selection of the number of orders, broken by a skin client:
 SELECT "lab4.clients"."first_name", "lab4.clients"."second_name", COUNT("lab4.active_orders"."id") as order_count 
 FROM "lab4.clients" 
 LEFT JOIN "lab4.active_orders" 
 ON "lab4.clients"."id" = "lab4.active_orders"."client_id" 
 GROUP BY "lab4.clients"."id";
 
+Request for a selection of the average price of the product for the entire history of prices:
 SELECT "lab4.Product_list"."Name", AVG("lab4.price_history"."last_price") as avg_price 
 FROM "lab4.Product_list" 
 LEFT JOIN "lab4.price_history"
 ON "lab4.Product_list"."id" = "lab4.price_history"."id" 
 GROUP BY "lab4.Product_list"."id";
 
+Request for a selection of all active requests of the singing client:
 SELECT "lab4.order".* 
 FROM "lab4.active_orders"
 INNER JOIN "lab4.order"
