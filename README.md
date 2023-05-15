@@ -13,7 +13,7 @@ https://www.tutorialspoint.com/postgresql/postgresql_using_joins.htm
 
 https://www.geeksforgeeks.org/postgresql-joins/
 
-<img src ="INNERJOIN.png"></img> 
+<img src ="INNERJOIN.png"></img>  <img src ="LEFTJOIN.png"></img>  <img src ="RIGHTJOIN.png"></img> 
 
-INNER JOIN
+         INNER JOIN                                 LEFT JOIN                 RIGHT JOIN
 
