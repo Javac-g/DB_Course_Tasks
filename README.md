@@ -14,5 +14,6 @@ https://www.tutorialspoint.com/postgresql/postgresql_using_joins.htm
 https://www.geeksforgeeks.org/postgresql-joins/
 
 <img src ="INNERJOIN.png"></img> 
+
 INNER JOIN
 
