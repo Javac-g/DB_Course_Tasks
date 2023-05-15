@@ -1,5 +1,7 @@
 # DB_Course_Tasks
 Links to Theory:
+
+
 https://en.wikipedia.org/wiki/Join_(SQL)
 
 
