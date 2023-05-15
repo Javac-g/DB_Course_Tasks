@@ -21,3 +21,12 @@ https://www.geeksforgeeks.org/postgresql-joins/
 
 <img src ="RIGHTJOIN.png"></img> RIGHT JOIN
 
+<img src ="FULL JOIN.png"></img> FULL OUTER JOIN EXCLUSIVE
+
+<img src ="LOJ.png"></img> LEFT OUTER JOIN EXCLUSIVE
+
+<img src ="ROJ.png"></img> RIGHT OUTER JOIN EXCLUSIVE
+
+<img src ="FOJE.png"></img> FULL OUTER JOIN EXCLUSIVE
+
+
