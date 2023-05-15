@@ -7,6 +7,7 @@ https://en.wikipedia.org/wiki/Join_(SQL)
 
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-joins/
 
+https://dirask.com/posts/PostgreSQL-JOIN-list-SQL-Query-D6Bl6D
 
 https://www.tutorialspoint.com/postgresql/postgresql_using_joins.htm
 
