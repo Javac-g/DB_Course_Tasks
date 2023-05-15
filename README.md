@@ -1,4 +1,4 @@
-# DB_Course_Tasks
+# SQL JOINGS
 Links to Theory:
 
 
