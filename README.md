@@ -15,5 +15,5 @@ https://www.geeksforgeeks.org/postgresql-joins/
 
 <img src ="INNERJOIN.png"></img>  <img src ="LEFTJOIN.png"></img>  <img src ="RIGHTJOIN.png"></img> 
 
-         INNER JOIN                                 LEFT JOIN                 RIGHT JOIN
+         INNER JOIN                                 LEFT JOIN                      RIGHT JOIN
 
