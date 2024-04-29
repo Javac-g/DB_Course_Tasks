@@ -1,5 +1,5 @@
 # SQL JOINGS
-Links to Theory:
+Theory:
 
 
 https://en.wikipedia.org/wiki/Join_(SQL)
